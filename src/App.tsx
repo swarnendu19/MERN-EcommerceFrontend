@@ -4,7 +4,7 @@ import { Toaster } from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import Loader from "./components/Loader";
+import Loader from "./components/loader";
 import ProtectedRoute from "./components/protected-route";
 import { auth } from "./firebase";
 import { getUser } from "./redux/api/userAPI";
