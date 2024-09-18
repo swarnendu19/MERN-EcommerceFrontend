@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import React from 'react'
 import Trends from '../components/Trends'
 import Status from '@/components/Status'
+import Product from '@/components/product/Product'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
      <Banner/>
      <Trends/>
      <Status/>
+     <Product/>
     </>
   )
 }
