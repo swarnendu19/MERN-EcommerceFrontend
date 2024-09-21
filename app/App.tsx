@@ -7,7 +7,7 @@ import Product from '@/components/product/Product'
 
 const App = () => {
   return (
-    <>
+    <> 
      <Navbar/>
      <Banner/>
      <Trends/>

@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { Product } from '@/types/ProductTypes';
 import { useState } from 'react';
-import QuickView from './ProductUI/QuickView';
 import Stars from './ProductUI/Stars';
 
 
